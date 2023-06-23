@@ -1,0 +1,7 @@
+---- ColorLight_Time Matches (6 in 1 files) ----
+main.c (User) line 25 : uint16_t ColorLight_Time;
+ColorLight_Mode0 in main.c (User) : 	ColorLight_Time=6;
+ColorLight_Mode1 in main.c (User) : 	ColorLight_Time=rand()%10+10;
+ColorLight_Mode2 in main.c (User) : 	ColorLight_Time=20;
+ColorLight_Mode3 in main.c (User) : 	ColorLight_Time=1;
+MainLoop in main.c (User) : 	if(LoopCount[1]>=ColorLight_Time)
